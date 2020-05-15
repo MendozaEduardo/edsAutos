@@ -33,7 +33,7 @@ router.post("/register", function(req, res){
             return res.render("register");
         }
         passport.authenticate("local")(req, res, function(){
-            req.flash("success", "Welcome to Ed's Autos " + user.username);
+            req.flash("success", "Welcome to Ed's Autos, " + user.username);
             res.redirect("/vehicles");
         });
     });

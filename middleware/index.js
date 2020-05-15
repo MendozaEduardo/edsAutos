@@ -28,8 +28,6 @@ middlewareObj.checkVehicleOwnership = function(req, res, next) {
         res.redirect("back");
     }
 };
-    
-
 
 middlewareObj.checkCommentOwnership = function(req, res, next) {
         if(req.isAuthenticated()){
