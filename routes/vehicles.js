@@ -4,7 +4,7 @@
 
 var express                 = require("express"),
     router                  = express.Router(),
-    vehicle                 = require("../models/vehicle"),
+    Vehicle                 = require("../models/vehicle"),
     middleware              = require("../middleware");
 
 //=========================================================
