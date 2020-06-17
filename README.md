@@ -1,1 +1,1 @@
-# Eds-autos
+# Eds-autos, a site where you can buy/sell cars
