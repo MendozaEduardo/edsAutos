@@ -1,11 +1,10 @@
 .thumbnail img {
-    width: 100%;
+    width: 100px;
+    height: 100px;
 }
 
 .thumbnail {
     padding: 0;
-    width: 200px;
-    height: 200px;
     border-radius: 10px;
     box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
 }
