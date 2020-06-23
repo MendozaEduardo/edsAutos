@@ -4,6 +4,12 @@
     height: 150px;
 }
 
+.image-responsive{
+    margin: 15px;
+    min-width: 600px;
+    min-height: 450px;
+}
+
 .thumbnail {
     padding: 0;
     border-radius: 10px;
