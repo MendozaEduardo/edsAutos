@@ -5,6 +5,7 @@
 }
 
 .image-responsive{
+    margin: 15px;
     min-width: 600px;
     min-height: 450px;
 }
